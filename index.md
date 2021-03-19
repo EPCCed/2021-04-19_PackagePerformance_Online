@@ -7,11 +7,11 @@ address:
 country: "UK"
 language: "English"
 latlng: 
-humandate: 
-humantime: 
-startdate: 
-enddate: 
-instructor: 
+humandate: 19 April 2021
+humantime: 0900-1600 BST
+startdate: 2021-04-19 09:00 BST
+enddate: 2021-04-19 16:00 BST
+instructor: Andy Turner
 helper: 
 email: ["support@archer2.ac.uk"]
 collaborative_notes: 
@@ -29,6 +29,8 @@ The lesson aims to answer the following questions:
     does my use of HPC fit into this workflow?
   - How do I measure parallel application performance and which metrics should I use and when?
   - What decisions on my use of HPC can I make based on performance measurements?
+
+Note: this course does not require any programming experience - it covers benchmarking HPC applications from the standpoint of running existing compiled applications and is suitable for users of HPC applications rather than developers. If you are an HPC software developer then you may find our [advanced courses](https://www.archer2.ac.uk/training/courses/#advanced) more suitable.
 
 <h2 id="general">General Information</h2>
 

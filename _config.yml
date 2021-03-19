@@ -103,6 +103,6 @@ highlighter: rouge
 remote_theme: carpentries/carpentries-theme
 
 # Course settings
-workshop_account: "ta012"
-workshop_reservation: "ta012_89"
-workshop_srun_options: "--partition=standard --qos=standard --reservation=ta012_89 --account=ta012 --hint=nomultithread --distribution=block:block"
+workshop_account: ""
+workshop_reservation: ""
+workshop_srun_options: "--partition=standard --qos=standard --reservation= --account=ta012 --hint=nomultithread --distribution=block:block"
