@@ -7,10 +7,9 @@ address:
 country: "UK"
 language: "English"
 latlng: 
-humandate: 19 April 2021
-humantime: 0900-1600 BST
-startdate: 2021-04-19 09:00 BST
-enddate: 2021-04-19 16:00 BST
+humandate: 19 Apr 2021
+humantime: 09:00-16:00 BST
+startdate: 2021-04-19
 instructor: Andy Turner
 helper: 
 email: ["support@archer2.ac.uk"]
