@@ -143,7 +143,7 @@ username on ARCHER2).
 {: .callout}
 
 ```
-cd /work/t001/t001/auser
+cd /work/{{ site.workshop_account }}/{{ site.workshop_account }}/auser
 mkdir sharpen-bench
 cd sharpen-bench
 ```

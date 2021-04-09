@@ -56,7 +56,7 @@ If you are already registered on the ARCHER or Tier-2 SAFE you do not need to re
 
 1. [Login to SAFE](https://safe.epcc.ed.ac.uk)
 2. Go to the Menu "Login accounts" and select "Request login account"
-3. Choose the `ta023` project “Choose Project for Machine Account” box and click "Next"
+3. Choose the `{{ site.workshop_account }}` project “Choose Project for Machine Account” box and click "Next"
 4. On the next page, the ARCHER2 system should be selected. Click "Next"
 5. Enter the username you would prefer to use on ARCHER2. Every username must be unique, so if your chosen name is taken, you will need to choose another
 
@@ -92,7 +92,7 @@ existing account code (the cost of the jobs is negligible as they are very short
 the ARCHER2 `short` QoS . When the course talks about setting the following options:
 
 ```
---account=ta023 --qos=standard --reservation=ta023_163
+--account={{ site.workshop_account }} --qos=standard --reservation={{ site.workshop_reservation }}
 ```
 
 you should replace them with:
@@ -105,8 +105,8 @@ Similarly, when you are writing job submission scripts, you should replace:
 
 ```
 #SBATCH --qos=standard
-#SBATCH --reservation=ta023_163
-#SBATCH --account=ta023
+#SBATCH --reservation={{ site.workshop_reservation }}
+#SBATCH --account={{ site.workshop_account }}
 ```
 
 with
